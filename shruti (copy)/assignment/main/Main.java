@@ -4,6 +4,7 @@ import shruti.assignment.singleton.*;
 public class Main {
 	public static void main(String args[]){
 		Data obj1=new Data();
+		System.out.println("something new!");
 		obj1.print();
 		/* Output of print function is "0" which is default 
 		 * initialization for int and " " i.e. null which is 
